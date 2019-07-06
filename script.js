@@ -15,3 +15,9 @@ for(i = 0; i < num; i++){
 
     }
 }
+
+container.addEventListener("mouseover", function(e){
+    if(e.target.classList.contains("containerelement")){
+        e.target.style.backgroundColor = "black";
+    }
+})
